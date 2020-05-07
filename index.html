@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bible Quiz</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
@@ -15,7 +15,7 @@
     <div class="timer">Time: <span id="time">0</span></div>
 
     <div class="wrapper">
-      <div id="start-screen" class="start">
+      <div id="start-screen" class="start border">
         <h1>Bible Quiz Challenge</h1>
         <p>
           Try to answer the following Bible questions within the time
@@ -25,12 +25,12 @@
         <button id="start">Start Quiz</button>
       </div>
 
-      <div id="questions" class="hide">
+      <div id="questions" class="hide border">
         <h2 id="question-title"></h2>
         <div id="choices" class="choices"></div>
       </div>
 
-      <div id="end-screen" class="hide">
+      <div id="end-screen" class="hide border">
         <h2>All done!</h2>
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>

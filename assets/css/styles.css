@@ -1,11 +1,17 @@
 body {
   font-family: Arial;
   font-size: 120%;
+  color: #cccccc;
   background-image: url("../images/easter-3157533_1920.jpg");
 }
 
+.border {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 25px;
+}
+
 a {
-  color: #cccccc;
   text-decoration: none;
   transition: color 0.1s;
 }
@@ -58,9 +64,9 @@ li {
   list-style: decimal inside none;
 }
 
-li:nth-child(odd) {
-  background-color: #f3edfc;
-}
+/* li:nth-child(odd) {
+  background-color: #414040;
+} */
 
 .wrapper {
   margin: 100px auto 0 auto;
